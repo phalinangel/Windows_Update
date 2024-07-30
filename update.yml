@@ -8,3 +8,4 @@
         - SecurityUpdates
         - CriticalUpdates
         - UpdateRollups
+      ignore_unreachable: true
