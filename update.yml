@@ -1,6 +1,7 @@
 ---
 - name: Install windows updates
   hosts: all
+  gather-facts: no
   tasks:
     - name: Checking and installing updates
       win_updates:
